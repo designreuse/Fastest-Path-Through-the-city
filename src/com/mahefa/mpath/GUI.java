@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package mpath;
+package com.mahefa.mpath;
 
 import java.awt.Color;
 import java.awt.Dimension;
@@ -271,21 +271,21 @@ public class GUI extends javax.swing.JFrame {
             }
         });
 
-        butOrig.setIcon(new javax.swing.ImageIcon(getClass().getResource("/mpath/check.png"))); // NOI18N
+        butOrig.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mahefa/mpath/icons/check.png"))); // NOI18N
         butOrig.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 butOrigActionPerformed(evt);
             }
         });
 
-        butDest.setIcon(new javax.swing.ImageIcon(getClass().getResource("/mpath/check.png"))); // NOI18N
+        butDest.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mahefa/mpath/icons/check.png"))); // NOI18N
         butDest.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 butDestActionPerformed(evt);
             }
         });
 
-        butPass.setIcon(new javax.swing.ImageIcon(getClass().getResource("/mpath/check.png"))); // NOI18N
+        butPass.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mahefa/mpath/icons/check.png"))); // NOI18N
         butPass.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 butPassActionPerformed(evt);
@@ -332,37 +332,37 @@ public class GUI extends javax.swing.JFrame {
         jScrollPane2.setViewportBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
         jScrollPane2.setPreferredSize(new java.awt.Dimension(550, 400));
 
-        butFind.setIcon(new javax.swing.ImageIcon(getClass().getResource("/mpath/search1.png"))); // NOI18N
+        butFind.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mahefa/mpath/icons/search1.png"))); // NOI18N
         butFind.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 butFindActionPerformed(evt);
             }
         });
 
-        butRem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/mpath/remove.png"))); // NOI18N
+        butRem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mahefa/mpath/icons/remove.png"))); // NOI18N
         butRem.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 butRemActionPerformed(evt);
             }
         });
 
-        butDown.setIcon(new javax.swing.ImageIcon(getClass().getResource("/mpath/down.png"))); // NOI18N
+        butDown.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mahefa/mpath/icons/down.png"))); // NOI18N
 
-        butUp.setIcon(new javax.swing.ImageIcon(getClass().getResource("/mpath/up.png"))); // NOI18N
+        butUp.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mahefa/mpath/icons/up.png"))); // NOI18N
         butUp.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 butUpActionPerformed(evt);
             }
         });
 
-        butRight.setIcon(new javax.swing.ImageIcon(getClass().getResource("/mpath/right.png"))); // NOI18N
+        butRight.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mahefa/mpath/icons/right.png"))); // NOI18N
         butRight.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 butRightActionPerformed(evt);
             }
         });
 
-        butLeft.setIcon(new javax.swing.ImageIcon(getClass().getResource("/mpath/left.png"))); // NOI18N
+        butLeft.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mahefa/mpath/icons/left.png"))); // NOI18N
 
         butClear.setText("Clear");
         butClear.addActionListener(new java.awt.event.ActionListener() {
@@ -511,7 +511,7 @@ public class GUI extends javax.swing.JFrame {
                     .addGroup(layout.createSequentialGroup()
                         .addGap(20, 20, 20)
                         .addComponent(labelDebug, javax.swing.GroupLayout.PREFERRED_SIZE, 542, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(20, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -562,7 +562,7 @@ public class GUI extends javax.swing.JFrame {
                             .addComponent(butRenew))))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(labelDebug, javax.swing.GroupLayout.PREFERRED_SIZE, 14, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(211, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         pack();

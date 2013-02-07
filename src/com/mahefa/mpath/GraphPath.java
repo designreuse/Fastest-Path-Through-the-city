@@ -1,10 +1,10 @@
-package mpath;
+package com.mahefa.mpath;
 
-import mpath.Address;
-import mpath.Path;
-import mpath.Direction;
-import mpath.PriorityQueue;
-import mpath.Util;
+import com.mahefa.mpath.Address;
+import com.mahefa.mpath.Path;
+import com.mahefa.mpath.Direction;
+import com.mahefa.mpath.PriorityQueue;
+import com.mahefa.mpath.Util;
 import java.io.IOException;
 import java.util.ArrayList;
 

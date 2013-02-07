@@ -1,11 +1,11 @@
-package mpath;
+package com.mahefa.mpath;
 
-import mpath.GraphPath;
-import mpath.Address;
-import mpath.Path;
-import mpath.Direction;
-import mpath.Parameter;
-import mpath.Util;
+import com.mahefa.mpath.GraphPath;
+import com.mahefa.mpath.Address;
+import com.mahefa.mpath.Path;
+import com.mahefa.mpath.Direction;
+import com.mahefa.mpath.Parameter;
+import com.mahefa.mpath.Util;
 import java.awt.Color;
 import java.io.*;
 import java.net.*;
@@ -13,7 +13,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 import javax.swing.JOptionPane;
-import mpath.GraphPath;
+import com.mahefa.mpath.GraphPath;
 
 import net.sf.json.*;
 

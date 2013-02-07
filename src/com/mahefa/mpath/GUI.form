@@ -195,7 +195,7 @@
                       <Component id="labelDebug" min="-2" pref="542" max="-2" attributes="0"/>
                   </Group>
               </Group>
-              <EmptySpace pref="20" max="32767" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -264,7 +264,7 @@
               </Group>
               <EmptySpace max="-2" attributes="0"/>
               <Component id="labelDebug" min="-2" pref="14" max="-2" attributes="0"/>
-              <EmptySpace pref="211" max="32767" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -322,7 +322,7 @@
     <Component class="javax.swing.JButton" name="butOrig">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/mpath/check.png"/>
+          <Image iconType="3" name="/com/mahefa/mpath/icons/check.png"/>
         </Property>
       </Properties>
       <Events>
@@ -332,7 +332,7 @@
     <Component class="javax.swing.JButton" name="butDest">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/mpath/check.png"/>
+          <Image iconType="3" name="/com/mahefa/mpath/icons/check.png"/>
         </Property>
       </Properties>
       <Events>
@@ -342,7 +342,7 @@
     <Component class="javax.swing.JButton" name="butPass">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/mpath/check.png"/>
+          <Image iconType="3" name="/com/mahefa/mpath/icons/check.png"/>
         </Property>
       </Properties>
       <Events>
@@ -435,7 +435,7 @@
     <Component class="javax.swing.JButton" name="butFind">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/mpath/search1.png"/>
+          <Image iconType="3" name="/com/mahefa/mpath/icons/search1.png"/>
         </Property>
       </Properties>
       <Events>
@@ -445,7 +445,7 @@
     <Component class="javax.swing.JButton" name="butRem">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/mpath/remove.png"/>
+          <Image iconType="3" name="/com/mahefa/mpath/icons/remove.png"/>
         </Property>
       </Properties>
       <Events>
@@ -455,14 +455,14 @@
     <Component class="javax.swing.JButton" name="butDown">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/mpath/down.png"/>
+          <Image iconType="3" name="/com/mahefa/mpath/icons/down.png"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="butUp">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/mpath/up.png"/>
+          <Image iconType="3" name="/com/mahefa/mpath/icons/up.png"/>
         </Property>
       </Properties>
       <Events>
@@ -472,7 +472,7 @@
     <Component class="javax.swing.JButton" name="butRight">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/mpath/right.png"/>
+          <Image iconType="3" name="/com/mahefa/mpath/icons/right.png"/>
         </Property>
       </Properties>
       <Events>
@@ -482,7 +482,7 @@
     <Component class="javax.swing.JButton" name="butLeft">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/mpath/left.png"/>
+          <Image iconType="3" name="/com/mahefa/mpath/icons/left.png"/>
         </Property>
       </Properties>
     </Component>

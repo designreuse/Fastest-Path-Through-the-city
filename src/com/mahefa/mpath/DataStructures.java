@@ -1,4 +1,4 @@
-package mpath;
+package com.mahefa.mpath;
 
 import java.awt.Color;
 import java.io.UnsupportedEncodingException;
