@@ -21,7 +21,7 @@ import net.sf.json.*;
 public class MapFunc {
     static String baseURL = "http://maps.googleapis.com/maps/api/";
     static String output = "json";
-    static String apiKey = "AIzaSyDXDGIwJ3i4pbe3XLCVMhe1BJPKp7Y52Mo";
+    static String apiKey = "<API-key>";
     static String sensor = "false";
     static String[] markerColors = new String[]{"black", "brown", "green", "purple", "yellow", "blue", "gray", "orange", "red", "white"};
     static String[] labels = new String[]{"A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"};
